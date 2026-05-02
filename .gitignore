@@ -1,0 +1,49 @@
+# 🔐 Environment variables
+.env
+.env.*
+
+# 🐍 Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Virtual environment
+venv/
+env/
+ENV/
+
+# 🗄️ Database
+db.sqlite3
+
+# 📁 Django stuff
+*.log
+staticfiles/
+media/
+
+# 🔧 VS Code settings
+.vscode/
+
+# 🧪 Testing / coverage
+.coverage
+htmlcov/
+
+# 📦 Node modules (for frontend)
+node_modules/
+
+# 🔥 OS files
+.DS_Store
+Thumbs.db
+
+# 🚀 Build files
+dist/
+build/
+
+# 🔑 Secret files
+*.pem
+
+frontend/node_modules/
+Procfile    
+.env
+.env.example
+fake-news-detector/venv
