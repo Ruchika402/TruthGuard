@@ -60,5 +60,5 @@ Start the development server:
 - **Model Missing**: If you get a "Model not trained" error, make sure you ran `python ml/train.py` inside the backend directory.
 - **Port Conflict**: If port 8000 (Django) or 3000 (React) is busy, the apps might not start. Make sure no other services are running on those ports.
 
-- ##Live Demo
+ ## Live Demo
 - https://truthguard-frontend.onrender.com
