@@ -59,3 +59,6 @@ Start the development server:
 - **CORS Errors**: If the frontend cannot reach the backend, ensure `CORS_ALLOW_ALL_ORIGINS` is set to `True` in `backend/truthguard/settings.py`.
 - **Model Missing**: If you get a "Model not trained" error, make sure you ran `python ml/train.py` inside the backend directory.
 - **Port Conflict**: If port 8000 (Django) or 3000 (React) is busy, the apps might not start. Make sure no other services are running on those ports.
+
+- ##Live Demo
+- https://truthguard-frontend.onrender.com
