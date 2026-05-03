@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { ShieldCheck, AlertTriangle, Link, FileText, Mic, Globe, Info, Loader2 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://truthguard-uczb.onrender.com/api';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('text');
